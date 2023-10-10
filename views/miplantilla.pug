@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Mi plantilla Pug
+    link(rel="stylesheet", href="/css/styles.css")
+  body
+    h1 Bienvenido a mi plantilla Pug
+    p #{mensaje}
+    
+    - // Ejemplo de bucle for
+    each val in [1, 2, 3, 4, 5]
+      p Este es el elemento #{val}
+    
+    - // Ejemplo de condicional if
+    if mensaje === 'Hola'
+      p El mensaje es 'Hola'
+    else
+      p El mensaje no es 'Hola'
+    
+    a(href="/pug") Ir a Pug
+    a(href="/ejs") Ir a EJS

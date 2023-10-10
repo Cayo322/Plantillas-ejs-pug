@@ -1,0 +1,36 @@
+html,body{
+  display: grid;
+  height: 50%;
+  width: 100%;
+  place-items: center;
+  background: -webkit-linear-gradient(left, #adacdd,#f5d9e0);
+}
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #45a049;
+}
+
+  h1, p {
+    color: #27ae60;
+    
+  }
+img{
+  width: 150px;
+  height: 100px;
+}

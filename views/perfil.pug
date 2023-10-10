@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Perfil de #{user.nombre}
+    link(rel="stylesheet", href="/css/styles.css")
+  body
+    h1 Perfil de #{user.nombre}
+    img(src="/images/logo.png", alt="Foto de perfil" )
+    p ID del usuario: #{user.id}
+    a(href="/pug") Ir a Pug
+    a(href="/ejs") Ir a EJS
+    
